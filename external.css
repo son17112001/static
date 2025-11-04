@@ -1,7 +1,10 @@
-:root {
+#root {
     --test-color: #ff6b6b;
     --test-bg: #4ecdc4;
+
+    background-color: var(--test-bg) !important;
 }
+
 
 body {
     border: 5px solid var(--test-color) !important;
